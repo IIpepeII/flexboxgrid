@@ -4,27 +4,27 @@
   margin-left: auto;
 }
 
-@media only screen and (min-width: 75em) {
+@media only screen and (min-width: 1200px) {
   .container {
-    width: 76rem;
+    width: 1208px;
   }
 }
 
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 1040px) {
   .container {
-    width: 65rem;
+    width: 1048px;
   }
 }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 768px) {
   .container {
-    width: 49rem;
+    width: 776px;
   }
 }
 
 .container-fluid {
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding-right: 32px;
+  padding-left: 32px;
 }
 
 .row {
@@ -41,8 +41,8 @@
   flex-direction: row;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -0.5rem;
-  margin-left: -0.5rem;
+  margin-right: -8px;
+  margin-left: -8px;
 }
 
 .row.reverse {
